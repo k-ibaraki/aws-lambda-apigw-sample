@@ -26,7 +26,7 @@ Resources:
             Method: get
             RestApiId:
               Ref: IbarakiSamSampleApi
-    Metadata: # Manage esbuild properties
+    Metadata:
       BuildMethod: esbuild
       BuildProperties:
         Minify: true
