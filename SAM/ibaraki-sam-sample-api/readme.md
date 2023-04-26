@@ -22,6 +22,6 @@ sam deploy
 sam delete
 ```
 
-## AWS SAN reference
+## AWS SAM reference
 
 https://docs.aws.amazon.com/ja_jp/serverless-application-model/latest/developerguide/serverless-sam-reference.html
