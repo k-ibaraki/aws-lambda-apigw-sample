@@ -7,5 +7,5 @@ Deploy APIs for Amazon API Gateway + AWS Lambda (TypeScript) in a variety of way
 - [AWS SAM](./SAM)
 - [AWS CDK](./CDK)
 - AWS Amplify
-- Serverless Framework
+- [Serverless Framework](./sls)
 - Terraform
