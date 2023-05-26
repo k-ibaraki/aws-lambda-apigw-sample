@@ -25,7 +25,7 @@ cdk deploy --profile {profile}
 
 ## delete
 ```
-sam destroy --profile {profile}
+cdk destroy --profile {profile}
 ```
 
 ## AWS CDK reference
