@@ -1,0 +1,5 @@
+# sam
+.aws-sam
+
+# package directories
+node_modules
