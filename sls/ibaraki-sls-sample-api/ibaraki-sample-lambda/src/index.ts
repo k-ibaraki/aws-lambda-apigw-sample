@@ -4,7 +4,7 @@ export async function handler(event: APIGatewayProxyEvent): Promise<APIGatewayPr
   return {
     statusCode: 200,
     body: JSON.stringify({
-      message: "Hello, sls!",
+      message: "Hello, sls!!",
     }),
   };
 }
