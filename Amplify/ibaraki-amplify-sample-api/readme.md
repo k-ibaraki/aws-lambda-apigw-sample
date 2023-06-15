@@ -13,6 +13,11 @@ amplify push
 ```
 
 ## delete
+
+:::note warn
+Note that all environments, including source code, will be deleted.
+:::
+
 ```
 amplify delete
 ```
