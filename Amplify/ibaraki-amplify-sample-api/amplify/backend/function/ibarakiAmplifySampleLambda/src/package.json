@@ -1,0 +1,15 @@
+{
+  "name": "ibaraki-sample-lambda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.89",
+    "esbuild": "^0.14.14"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}

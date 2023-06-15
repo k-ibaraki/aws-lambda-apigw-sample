@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/hello": {
+      "name": "/hello",
+      "lambdaFunction": "ibarakiAmplifySampleLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

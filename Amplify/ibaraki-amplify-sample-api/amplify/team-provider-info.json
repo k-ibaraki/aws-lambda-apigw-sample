@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ibarakiamplifysample-dev-112155-authRole",
+      "UnauthRoleArn": "arn:aws:iam::695688866317:role/amplify-ibarakiamplifysample-dev-112155-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::695688866317:role/amplify-ibarakiamplifysample-dev-112155-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-ibarakiamplifysample-dev-112155-deployment",
+      "UnauthRoleName": "amplify-ibarakiamplifysample-dev-112155-unauthRole",
+      "StackName": "amplify-ibarakiamplifysample-dev-112155",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:695688866317:stack/amplify-ibarakiamplifysample-dev-112155/68a9e670-0b23-11ee-8b94-0e6928c90a27",
+      "AmplifyAppId": "d3iqikvms962bt"
+    },
+    "categories": {
+      "function": {
+        "ibarakiAmplifySampleLambda": {
+          "deploymentBucketName": "amplify-ibarakiamplifysample-dev-112155-deployment",
+          "s3Key": "amplify-builds/ibarakiAmplifySampleLambda-756a7a6964506667486f-build.zip"
+        }
+      },
+      "api": {
+        "ibarakiAmplifySampleAPI": {}
+      }
+    }
+  }
+}

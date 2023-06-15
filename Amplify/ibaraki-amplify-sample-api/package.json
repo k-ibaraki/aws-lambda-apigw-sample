@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "amplify:ibarakiAmplifySampleLambda": "cd amplify/backend/function/ibarakiAmplifySampleLambda/src && npx --package typescript tsc && cd -"
+  }
+}

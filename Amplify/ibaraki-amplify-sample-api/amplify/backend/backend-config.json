@@ -1,0 +1,43 @@
+{
+  "api": {
+    "ibarakiAmplifySampleAPI": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "ibarakiAmplifySampleLambda"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "ibarakiAmplifySampleLambda": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_ibarakiAmplifySampleLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ibarakiAmplifySampleLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_ibarakiAmplifySampleLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ibarakiAmplifySampleLambda"
+        }
+      ]
+    }
+  }
+}
