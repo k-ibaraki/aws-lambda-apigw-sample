@@ -1,5 +1,11 @@
 # Wing
 
+## view on local machine
+```
+wing it ibaraki-sample-api-gateway.w
+```
+
+
 ## compile to terraform
 ```
 wing compile --target tf-aws ibaraki-sample-api-gateway.w
