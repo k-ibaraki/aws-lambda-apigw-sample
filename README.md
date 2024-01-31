@@ -10,3 +10,4 @@ Deploy APIs for Amazon API Gateway + AWS Lambda (TypeScript) in a variety of way
 - [Serverless Framework](./sls)
 - Terraform
 - [Wing](./Wing)
+- [AWS Amplify Gen2(preview)](./AmplifyGen2)
