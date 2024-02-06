@@ -10,10 +10,10 @@ const lambdaFunction = backend.ibarakiSampleLambda.resources.lambda;
 // Amplify Gen2はプレビュー時点でAPI Gatewayを作る機能がないので、手動で追加する //
 
 // API Gateway用にCdkStackをAmplify Backendに追加
-const ApiStack = backend.createStack('ibarakiSampliApiStack');
+const ApiStack = backend.createStack('ibarakiSampleApiStack');
 // API Gateway を作成
-const api = new apigateway.RestApi(ApiStack, 'IbarakiCdkSampleApi', {
-  restApiName: 'Ibaraki CDK Sample API',
+const api = new apigateway.RestApi(ApiStack, 'IbarakiAmplifyGen2SampleApi', {
+  restApiName: 'Ibaraki AmplifyGen2 Sample API',
 });
 // API Gateway にLambdaを統合
 const ibarakiSampleIntegration = new apigateway.LambdaIntegration(lambdaFunction);
