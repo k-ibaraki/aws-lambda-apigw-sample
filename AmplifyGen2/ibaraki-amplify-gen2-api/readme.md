@@ -1,4 +1,4 @@
-# AWS Amplify Gen2 (preview)
+# AWS Amplify Gen2
 
 ## install
 install packages
@@ -8,13 +8,13 @@ npm i
 
 ## build and deploy (Sandbox)
 ```
-npx amplify sandbox --profile {aws-profile}
+npx ampx sandbox --profile {aws-profile}
 ```
 
 ## delete (Sandbox)
 ```
-npx amplify sandbox delete --profile {aws-profile}
+npx ampx sandbox delete --profile {aws-profile}
 ```
 
 ## AWS Amplify Gen2 Document
-https://docs.amplify.aws/gen2/
+https://docs.amplify.aws/

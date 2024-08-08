@@ -21,4 +21,4 @@ amplify delete
 ```
 
 ## AWS Amplify Document
-https://docs.amplify.aws/
+https://docs.amplify.aws/gen1/
